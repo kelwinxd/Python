@@ -25,7 +25,7 @@ for x in range(1,6):
         """
 
 #Summing
-
+"""
 Values=[20,40,60,80]
 total=0
 
@@ -43,4 +43,27 @@ for num in numbers:
 
 
 n = [8,3,6]
+
+#Ascending Order
+n.sort()
+
+#Descending Order
+n.reverse()
+
+#Insert(Position, Value)
+n.insert(1,7)
+
+print(n)
+"""
+
+#Program to remove numbers duplicated
+array = [10,2,2,3,6]
+array2 =[]
+
+for x in array:
+    if x not in array2:
+        array.append(array)
+print(array2)
+
+
 

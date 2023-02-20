@@ -1,3 +1,4 @@
+"""
 #Lists
 
 Brands=["Nike","Adidas", "Puma","Louis Vitton"]
@@ -29,3 +30,28 @@ Data="Amount: {}"
 print(Data.format(HowMuch))
 print(Brands3)
 
+
+#INPUT AND LIST --------------------
+# creating an empty list
+lst = []
+
+# number of elements as input
+n = int(input("Enter number of elements : "))
+
+# iterating till the range
+for i in range(0, n):
+	ele = int(input())
+
+	lst.append(ele) # adding the element
+	
+print(lst)
+
+"""
+#Tupples and Unpacking
+
+tup = (2,5,8)
+
+#Convert array elements to simplify
+a,b,c = tup
+
+print(b)
