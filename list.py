@@ -46,7 +46,6 @@ for i in range(0, n):
 	
 print(lst)
 
-"""
 #Tupples and Unpacking
 
 tup = (2,5,8)
@@ -55,3 +54,9 @@ tup = (2,5,8)
 a,b,c = tup
 
 print(b)
+
+
+"""
+
+
+

@@ -1,0 +1,9 @@
+Unicode ou Decode error geralmente é por causa dos caracteres especiais 
+então usa-se após o read("arquivo.ext", encoding="latin")
+
+Quando o arquivo de base de dados estiver na mesma pasta, não é necessario
+informar o caminho
+
+Para deletar uma coluna do excel pelo python:
+tabela = tabela.drop("nome-coluna", axis=1)
+Axis indica se é uma coluna(1) ou linha(0)
