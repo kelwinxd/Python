@@ -1,5 +1,5 @@
 x = 1
-
+"""
 while x <=10:
     print(x * "k")
     x+=1
@@ -7,6 +7,7 @@ while x <=10:
 print("Done Math")
 
 # Password Little System 
+"""
 
 right=9
 repetion=0
