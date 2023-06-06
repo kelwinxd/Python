@@ -43,7 +43,7 @@ while True:
     print(f'Full word for now is: {full_word}')
 
     if full_word == secret:
-        os.system('clear')
+        os.system('cls')
         print('You Won!!! Congrats')
         print(full_word)
         earned_words = ''

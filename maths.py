@@ -12,7 +12,7 @@ rem = 10 % 3
 
 #round a result
 myround = 2.9
-print(round(myround))
+print(round(myround, 2))
 
 #convert negative in positive
 y = -5
@@ -27,6 +27,8 @@ print(myround)
 """
 Find= int(input("What number do you want to find out its amount?"))
 List2=[5,2,3,5,44,5,2,3,36]
+
+
 
 
 
