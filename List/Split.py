@@ -14,7 +14,7 @@ phrase = []
 
 result = ', '.join(phrase)
 
-print(result)
+print(phrase_gross)
 
 
 

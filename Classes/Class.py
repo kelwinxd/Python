@@ -12,3 +12,5 @@ class Computer:
 
 
 computer1= Computer('RTX 4090', 'AMD Ryzen')
+computer1.TurnOn()
+print(computer1.TurnOn)

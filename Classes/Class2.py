@@ -8,7 +8,8 @@ class Person:
 
 
 
-person1 = Person("")
+person1 = Person("kelwin")
+person1.talk()
 
 
 

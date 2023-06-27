@@ -1,3 +1,5 @@
+import os
+
 quetions = [
     {
         'Pergunta': 'Quanto é 2+2?',
@@ -43,8 +45,14 @@ for q in quetions:
 
     choose = input('Choose a Answer: ')
 
+    if choose.isdigit() or isinstance(choose,float):
+        intChoose = int(choose)
+    else:
+        print('Type just integer numbers')
+        break
+
     
-    if choose == q['Resposta']:
+    if intChoose == int(q['Resposta']):
         rights += 1
         
         print('Correct!')
@@ -52,6 +60,7 @@ for q in quetions:
         
         wrongs += 1
         print('Wrong!')
+    
 
     
 
