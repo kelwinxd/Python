@@ -7,14 +7,15 @@ phraseTRIM = phrase1.strip()
 #Turn into Array by split(argument_to_separate)
 phrase_gross = phraseTRIM.split(', ')
 
-phrase = []
+phrase = ['test','test2']
+
 
 
 
 
 result = ', '.join(phrase)
 
-print(phrase_gross)
+print(result)
 
 
 

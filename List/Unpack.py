@@ -2,7 +2,7 @@
 
 _, name2, *_ = ['Josh', 'Mary', 'Hellen', 'Ruan']
 
-print(name2)
+print(_)
 
 
 
