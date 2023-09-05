@@ -3,6 +3,11 @@
 import os
 import sys
 
+#-m venv venv Criar Ambiente virtual
+#. venv/Scripts/activate
+#pip install django
+#pip install --upgrade
+#djando-admin start-project project . // criar projeto na raiz
 
 def main():
     """Run administrative tasks."""

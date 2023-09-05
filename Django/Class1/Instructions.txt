@@ -1,0 +1,6 @@
+Ativar o ambiente virtual:
+.\nome-do-seu-ambiente\Scripts\Activate
+
+Iniciar um servidor Django
+python manage.py runserver
+
