@@ -4,3 +4,14 @@ Ativar o ambiente virtual:
 Iniciar um servidor Django
 python manage.py runserver
 
+Para criar um app com Django:
+python manage.py startapp nome-projeto
+
+Para renderizar um html em Django:
+from django.shortcuts import render
+
+estrutura da view para html:
+def index(request):
+   return render( request, "path/index.html" )
+
+
