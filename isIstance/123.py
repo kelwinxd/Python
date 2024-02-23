@@ -1,4 +1,5 @@
 integer = 12
 print(dir(integer))
-integer.
-if hasattr(integer,int)
+
+if hasattr(integer,int):
+    print(integer)
