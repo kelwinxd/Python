@@ -1,0 +1,4 @@
+Em resumo:
+
+json.loads() é usado para carregar uma string JSON em um objeto Python.
+json.dumps() é usado para converter um objeto Python em uma string JSON.
