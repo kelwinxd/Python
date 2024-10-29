@@ -1,0 +1,6 @@
+#mostra as colunas da tabela
+cursor.execute(f'PRAGMA table_info({TABLE_NAME})')
+
+#commit
+Apenas usa para atualizar modificações: connection.commit()
+
